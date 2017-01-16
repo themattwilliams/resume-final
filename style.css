@@ -1,0 +1,393 @@
+img.photo {
+	width: 200px;
+	height: auto;
+	margin: 20px 0 0 0;
+	border-radius: 50%;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: #2e2f2f;
+	margin: 0;
+}
+
+h3, h1, h4, h5{
+	font-family: 'Lato', sans-serif;
+	color: #666666;
+	letter-spacing: 1px;
+}
+
+p, li{
+	font-weight: 300;
+}
+
+li {
+	margin: 0 0 9px 0;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	background-color: #e6e6e6;
+	padding: 20px 0;
+	/*background-image: url("sky.jpg");
+	background-size: 100%;*/
+}
+
+.header {
+	margin-right: 143px;
+}
+
+.header-two {
+	margin: 63px 0 30px 0;
+}
+
+.container-one, .container-second, .container-three {
+	margin: 0 auto;
+	width: 55%;
+}
+
+.header-container {
+	border-style: solid;
+    border-width: thin;
+    border-color: #e0e0e0;
+	text-align: center;
+	padding: 10px;
+}
+
+.resume {
+	margin-bottom: 5px;
+	font-weight: 200;
+}
+
+
+.title {
+	margin-top: 0;
+	font-weight: 300;
+}
+
+.name {
+	margin-bottom: 5px;
+}
+
+.contact {
+	display: flex;
+	flex-wrap: wrap;
+   -webkit-box-pack: justify;
+   justify-content: space-between;
+}
+
+.media-element {
+	width: 76%;
+	max-width: 76%;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.media-image {
+	margin-right: 10px;
+	float: left;
+}
+
+.media-image img {
+	max-width: 100%;
+}
+
+.media-element {
+	overflow: hidden;
+}
+
+.media-element h4 {
+	margin-bottom: 5px;
+	font-weight: 300;
+	font-size: 19px;
+}
+
+.media-element-caption {
+	overflow: hidden;
+}
+
+.media-element-caption a {
+	text-decoration: none;
+	color: #666666;
+}
+
+.media-element-copy {
+	margin: 7px;
+}
+
+.contacts-break-line {
+	margin: 35px 0;
+}
+
+.city {
+	margin-top: -4px;
+}
+
+.list-item-dark {
+	color: #2e2f2f;
+}
+
+/*experience csss*/
+
+.a-tags {
+	text-decoration: none;
+	color: #4c88ff;
+}
+
+.break {
+	color: #2e2f2f;
+	margin: 0 0 21px 0
+}
+
+.list-items-container {
+	border-left: 2px solid #d5d5d5;
+    padding-left: 20px;
+	padding-bottom: 10px;
+}
+.list-items-container:before {
+  content: '';
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  float: left;
+  background: #d5d5d5;
+  margin-top: 0px;
+  margin-left: -26px;
+}
+
+.list-items-title, .list-items-company {
+	text-transform: uppercase;
+}
+
+.list-items-title h5 {
+	font-weight: 400;
+	margin: 3px 0;
+}
+
+.list-items-title a {
+	color: #4c88ff;
+	text-decoration: none;
+}
+
+
+.list-items-company h5 {
+	font-weight: 400;
+	margin-top: 5px;
+}
+
+.list-items-company a {
+	text-decoration: none;
+	color: #666666;
+}
+
+.list-items-copy {
+	color: #666666;
+	margin-top: 2px;
+	line-height: 25px;
+}
+
+#copy, #copy-two, #copy-three {
+	font-weight: 300px;
+}
+
+.experience {
+	margin-top: 40px;
+}
+
+.media-element-experience {
+	text-transform: uppercase;
+    color: #4C4CFF;
+	margin-top: 6px;
+}
+
+/*skills*/
+
+.skills-container {
+	display: flex;
+}
+
+.circle-dark {
+	width: 10px;
+	height: 10px;
+	background: #555757;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	display: inline-block;
+	margin: 0px 2px 0px 2px;
+}
+
+.circle-light {
+	width: 10px;
+	height: 10px;
+	background: #bfc5c5;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	display: inline-block;
+	margin: 0px 2px 0px 2px;
+}
+
+.list-items-skill {
+	display: flex;
+}
+
+.left-table {
+	padding-left: 15px;
+}
+
+.skill-name-title {
+	text-transform: uppercase;
+}
+
+/*interests*/
+
+.interest-list {
+	padding-left: 15px;
+}
+
+
+
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+	.container-one, .container-second, .container-three {
+		margin: 0 auto;
+	  	width: 80%;
+	}
+
+	header {
+		flex-wrap: wrap;
+	}
+
+	.header {
+		margin: 0;
+	}
+
+	img.photo {
+		width: 120px;
+	}
+
+	.media-element {
+		margin: 0 auto
+	}
+
+	.contacts-break-line{
+		display: none;
+		margin: 0;
+	}
+
+	.skills-container {
+		flex-wrap: wrap
+	}
+
+	.left-table-no-margin {
+		padding-left: 0;
+	}
+
+	#top-table {
+		margin-top: 0;
+	}
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+	.container-one, .container-second, .container-three {
+  		margin: 0 auto;
+  	  	width: 80%;
+  	}
+
+  	header {
+  		flex-wrap: wrap;
+  	}
+
+	.header {
+		margin: 0;
+	}
+
+	img.photo {
+		width: 120px;
+	}
+
+	.media-element {
+		margin: 0 auto
+	}
+
+	.contacts-break-line{
+		display: none;
+		margin: 0;
+	}
+
+	.skills-container {
+		flex-wrap: wrap
+	}
+
+	.left-table-no-margin {
+		padding-left: 0;
+	}
+
+	#top-table {
+		margin-top: 0;
+	}
+}
+
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+	.container-one, .container-second, .container-three {
+  		margin: 0 auto;
+  	  	width: 80%;
+  	}
+
+  	header {
+  		flex-wrap: wrap;
+  	}
+
+	.header {
+		margin: 0;
+	}
+
+	img.photo {
+		width: 120px;
+	}
+
+	.media-element {
+		margin: 0 auto
+	}
+
+	.contacts-break-line{
+		display: none;
+		margin: 0;
+	}
+
+	.skills-container {
+		flex-wrap: wrap
+	}
+
+	.left-table-no-margin {
+		padding-left: 0;
+	}
+
+	#top-table {
+		margin-top: 0;
+	}
+
+}

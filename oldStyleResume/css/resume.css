@@ -1,5 +1,10 @@
 h3 {
 	margin-top: 0.5em;
+	color: #22a5d3;
+}
+
+.col-md-3 h3 {
+	color: #22a5d3;
 }
 
 h4 {
