@@ -247,6 +247,54 @@ header {
 	padding-left: 15px;
 }
 
+/* ----------- Small comp screen ----------- */
+
+@media only screen
+  and (min-width: 400px)
+  and (max-width: 600px) {
+
+	.container-one, .container-second, .container-three {
+		margin: 0 auto;
+	  	width: 80%;
+	}
+
+	header {
+		flex-wrap: wrap;
+	}
+
+	.header {
+		margin: 0;
+	}
+
+	img.photo {
+		width: 120px;
+	}
+
+	.media-element {
+		margin: 0 auto
+	}
+
+	#section-header-interests, #section-header-awards, #section-header-education, #section-header-experience, #section-header-projects, #section-header-skills {
+		margin: 0;
+	}
+
+	.contacts-break-line{
+		display: none;
+		margin: 0;
+	}
+
+	.skills-container {
+		flex-wrap: wrap
+	}
+
+	.left-table-no-margin {
+		padding-left: 0;
+	}
+
+	#top-table {
+		margin-top: 0;
+	}
+}
 
 /* ----------- iPad ----------- */
 
@@ -435,7 +483,7 @@ header {
 	.media-element {
 		margin: 0 auto
 	}
-	
+
 	#section-header-interests, #section-header-awards, #section-header-education, #section-header-experience, #section-header-projects, #section-header-skills {
 		margin: 0;
 	}
