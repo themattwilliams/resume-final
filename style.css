@@ -248,6 +248,61 @@ header {
 }
 
 
+/* ----------- iPad ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+	.container-one, .container-second, .container-three {
+		margin: 0 auto;
+	  	width: 80%;
+	}
+
+	header {
+		flex-wrap: wrap;
+	}
+
+	.header {
+		margin: 0;
+	}
+
+	img.photo {
+		width: 120px;
+	}
+
+	#section-header-interests, #section-header-awards, #section-header-education, #section-header-experience, #section-header-projects, #section-header-skills {
+		margin: 0;
+	}
+
+	.section-headers {
+		margin: 0;
+	}
+
+	.media-element {
+		margin: 0 auto
+	}
+
+	.contacts-break-line{
+		display: none;
+		margin: 0;
+	}
+
+	.skills-container {
+		flex-wrap: wrap
+	}
+
+	.left-table-no-margin {
+		padding-left: 0;
+	}
+
+	#top-table {
+		margin-top: 0;
+	}
+}
+
 
 
 /* ----------- iPhone 5 and 5S ----------- */
@@ -277,6 +332,10 @@ header {
 
 	.media-element {
 		margin: 0 auto
+	}
+
+	#section-header-interests, #section-header-awards, #section-header-education, #section-header-experience, #section-header-projects, #section-header-skills {
+		margin: 0;
 	}
 
 	.contacts-break-line{
@@ -326,6 +385,10 @@ header {
 		margin: 0 auto
 	}
 
+	#section-header-interests, #section-header-awards, #section-header-education, #section-header-experience, #section-header-projects, #section-header-skills {
+		margin: 0;
+	}
+
 	.contacts-break-line{
 		display: none;
 		margin: 0;
@@ -371,6 +434,10 @@ header {
 
 	.media-element {
 		margin: 0 auto
+	}
+	
+	#section-header-interests, #section-header-awards, #section-header-education, #section-header-experience, #section-header-projects, #section-header-skills {
+		margin: 0;
 	}
 
 	.contacts-break-line{
