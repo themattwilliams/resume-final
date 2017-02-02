@@ -208,17 +208,10 @@ header {
 }
 
 .circle-dark {
-	width: 10px;
-	height: 10px;
-	background: #555757;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
-	display: inline-block;
-	margin: 0px 2px 0px 2px;
+	font-style: italic;
 }
 
-.circle-light {
+/*.circle-light {
 	width: 10px;
 	height: 10px;
 	background: #bfc5c5;
@@ -227,7 +220,7 @@ header {
 	border-radius: 50px;
 	display: inline-block;
 	margin: 0px 2px 0px 2px;
-}
+}*/
 
 .list-items-skill {
 	display: flex;
